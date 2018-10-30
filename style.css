@@ -1,38 +1,29 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    background-color: black;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?asoys2');
+  src:  url('fonts/icomoon.eot?asoys2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?asoys2') format('truetype'),
+    url('fonts/icomoon.woff?asoys2') format('woff'),
+    url('fonts/icomoon.svg?asoys2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-#navbar {
-    background-color: gray;
-    opacity: 0.4;
-    padding: 5px;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#navbar a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-family: sans-serif;
-    margin-right: 5px;
-    margin-left: 10%;
-}
-
-#navbar img {
-    width: 23px;
-    height: 23px;
-    margin-left: 18%;
-    margin-top: 5px;
-}
-
-
-/* Class only for Javascript sticky menu */
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.icon-menu:before {
+  content: "\e9bd";
 }
