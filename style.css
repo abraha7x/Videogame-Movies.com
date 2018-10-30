@@ -5,17 +5,34 @@ body {
 }
 
 #navbar {
-    overflow: hidden;
     background-color: gray;
-    opacity: 0.5;
+    opacity: 0.4;
+    padding: 5px;
 }
 
 #navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 12px;
     text-decoration: none;
     font-family: sans-serif;
+    margin-right: 5px;
+    margin-left: 10%;
+}
+
+#navbar img {
+    width: 23px;
+    height: 23px;
+    margin-left: 18%;
+    margin-top: 5px;
+}
+
+
+/* Class only for Javascript sticky menu */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
