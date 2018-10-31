@@ -11,12 +11,31 @@ header {
     width: 100%;
 }
 
+
+/* Se diseña barra de navegacion (nav) que esta dentro de contenedor  (header) */
+
 header nav {
     width: 100%;
     max-width: 100%;
     margin: 0px auto;
-    background: gray;
+    background: black;
+    opacity: 0.8;
 }
+
+
+/* Se alinea LOGO en base a posicion (ul) */
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+
+/* Se oculta el menu en tamaño maximo de pagina */
 
 .menu_bar {
     display: none;
@@ -38,5 +57,27 @@ header nav ul li a {
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/* Configuracion que se aplica solo cuando la pantalla es al tamaño de 800px o menos */
+
+@media screen and (max-width: 800px) {
+    header nav {
+        width: 30%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+    header nav ul li {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+    }
 }
