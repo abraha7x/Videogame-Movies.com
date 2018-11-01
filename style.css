@@ -23,8 +23,8 @@ header {
     display: none;
     float: right;
     color: white;
-    font-size: 40px;
-    margin-top: -35px;
+    font-size: 30px;
+    margin-top: -2px;
     padding-right: 20px;
     cursor: pointer;
 }
@@ -33,6 +33,7 @@ header {
     width: 550px;
     margin: -25px auto;
     text-align: center;
+    margin-top: 7px;
 }
 
 #menu ul a {
@@ -50,7 +51,7 @@ header {
 #close_menu {
     float: right;
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     padding: 10px;
     cursor: pointer;
 }
