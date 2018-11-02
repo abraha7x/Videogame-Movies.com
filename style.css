@@ -29,6 +29,19 @@ header {
     cursor: pointer;
 }
 
+#open_menu2 {
+    float: left;
+    color: white;
+    margin-top: 5px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+span img {
+    width: 20px;
+    height: 20px;
+}
+
 #menu {
     width: 550px;
     margin: -25px auto;
