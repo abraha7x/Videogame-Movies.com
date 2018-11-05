@@ -10,13 +10,8 @@ header {
     opacity: 0.8;
 }
 
-#logo {
+#banner {
     padding: 10px 0px 0px 10px;
-}
-
-#logo h1 {
-    color: white;
-    font: bold 25px Arial;
 }
 
 #open_menu {
@@ -29,7 +24,7 @@ header {
     cursor: pointer;
 }
 
-#open_menu2 {
+#logo {
     float: left;
     color: white;
     margin-top: 5px;
@@ -53,7 +48,7 @@ span img {
     text-decoration: none;
     color: white;
     font: 12px Arial;
-    padding: 10px;
+    padding: 25px;
 }
 
 #menu div {
