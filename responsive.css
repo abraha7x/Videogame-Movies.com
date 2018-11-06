@@ -25,4 +25,46 @@
     #mvbanner {
         display: none;
     }
+    #mariobanner {
+        display: none;
+    }
+    #antbanner {
+        display: none;
+    }
+    #tranbanner {
+        display: none;
+    }
+    #increbanner {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #port1 {
+        display: none;
+    }
+    #port2 {
+        display: none;
+    }
+    #port3 {
+        display: none;
+    }
+    #port4 {
+        display: none;
+    }
+    #port5 {
+        display: none;
+    }
+    #port6 {
+        display: none;
+    }
+    #port7 {
+        display: none;
+    }
+    #port8 {
+        display: none;
+    }
+    #port9 {
+        display: none;
+    }
 }
