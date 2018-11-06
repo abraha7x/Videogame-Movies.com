@@ -19,4 +19,10 @@
     #menu div {
         display: block;
     }
+    #vgbanner {
+        display: none;
+    }
+    #mvbanner {
+        display: none;
+    }
 }
