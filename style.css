@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: black;
+}
+
 header {
     width: 100%;
     height: 50px;
@@ -62,4 +66,30 @@ span img {
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
+}
+
+#vgbanner {
+    width: 100%;
+    height: 100%;
+}
+
+#vgbanner img {
+    width: 100%;
+    height: 100%;
+}
+
+#mvbanner {
+    width: 100%;
+    height: 100%;
+}
+
+#mvbanner img {
+    width: 100%;
+    height: 100%;
+}
+
+#footbanner {
+    background: yellow;
+    width: 100%;
+    height: 50px;
 }
