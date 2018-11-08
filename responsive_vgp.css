@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+    #open_menu {
+        display: block;
+    }
+    #logo {
+        display: block;
+    }
+    #menu {
+        position: fixed;
+        width: 250px;
+        margin-top: 0;
+        top: 0;
+        background: black;
+        right: -100%;
+    }
+    #menu ul a {
+        display: block;
+    }
+    #menu div {
+        display: block;
+    }
+}
