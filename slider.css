@@ -1,0 +1,13 @@
+.flexslider {
+    width: 100%;
+    position: relative;
+}
+
+.slides {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides img {
+    width: 50%;
+}
