@@ -113,14 +113,14 @@ span img {
 /* Footbanner */
 
 #footbanner {
-    background: yellow;
+    background: black;
     width: 100%;
     height: 60px;
 }
 
 #footbanner p {
     padding: 10px;
-    background: red;
+    background: black;
     width: 300px;
     margin: 0 auto;
     text-align: center;
